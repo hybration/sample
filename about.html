@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solace Data Solutions</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-----header----->
+    <header class="header">
+        <a href="#"><img src="./IMAGES/Logo.png" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bx bx-window-close' onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+    <!-----sub-header session----->
+    <section class="sub-header" id="sub-header">
+        <h1>About <span>Us</span></h1>
+    </section>
+
+   
+    <!-----about session----->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./IMAGES/cplusplus.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h4><span>An</span> Information Technology</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus suscipit ullam quo eius, nisi blanditiis! Accusamus eligendi quia dolorum labore, qui harum? Laborum vero totam rerum illo. Fuga, eaque officia? <br>  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid et dicta consequatur numquam? Omnis, necessitatibus repellendus. Voluptatibus aliquam porro, fugit eos libero, cum id veniam amet autem voluptates doloremque sit?<br></p>
+            <a href="#" class="btn">Let's Talk</a>
+        </div>
+    </section>
+
+    <section class="others" id="others">
+        <div class="sub-text-title">
+            <h2>Why <span>Me</span></h2>
+        </div>
+        <div class="others-img">
+            <img src="./IMAGES/Logo.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="others-text">
+            <h3><span>As</span> a Information Technology</h3>
+            <p>
+                - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium non laudantium <br><br>
+                - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium non laudantium <br><br>
+                - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium non laudantium <br><br>
+            </p>
+        </div>
+        <div>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+   
+    <!-----footer----->
+    <footer class="footer">
+        <div class="attribution">
+            <p>Design with <i class='bx bx-heart'></i> By SolaceCode</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-----JS for toggle menu----->
+    <script>
+        var navMenu = document.getElementById("navMenu");
+
+        function openMenu() {
+            navMenu.style.right = "0";
+        }
+
+        function closeMenu() {
+            navMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
